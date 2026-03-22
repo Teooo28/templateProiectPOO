@@ -11,5 +11,7 @@ VehiculElectric::~VehiculElectric() {
 
 // implementare functie pur virtuala
 void VehiculElectric::afisareDetalii() const {
-    std::cout << "Vehicul Electric -> ID: " << id << " | Producator: " << producator << " | Baterie: " << baterie << " kWh\n";
+    std::cout << "Vehicul Electric -> ID: " << id 
+              << " | Producator: " << producator 
+              << " | Baterie: " << baterie << " kWh\n";
 }

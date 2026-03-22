@@ -11,5 +11,7 @@ TransportPublic::~TransportPublic() {
 
 // implementare functie pur virtuala
 void TransportPublic::afisareDetalii() const {
-    std::cout << "Transport Public -> ID: " << id << " | Producator: " << producator << " | Locuri: " << nrLocuri << "\n";
+    std::cout << "Transport Public -> ID: " << id 
+              << " | Producator: " << producator 
+              << " | Locuri: " << nrLocuri << "\n";
 }

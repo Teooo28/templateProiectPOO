@@ -16,7 +16,8 @@ Vehicul::~Vehicul() {
 
 // implementare functie pur virtuala
 void Vehicul::afisareDetalii() const{
-    std::cout << "ID vehicul: " << id << "| Producator: " << producator << "\n";
+    std::cout << "ID vehicul: " << id 
+              << "| Producator: " << producator << "\n";
 }
 
 // implementare metoda statica
