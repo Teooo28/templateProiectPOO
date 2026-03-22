@@ -11,7 +11,7 @@ public:
     TransportPublic(int id, const std::string& producator, int nrLocuri);
 
     // destructor
-    virtual ~TransportPublic();
+    ~TransportPublic() override;
 
     // suprascrierea functiei virtuale pure din clasa de baza 
     void afisareDetalii() const override;

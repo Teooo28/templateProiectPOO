@@ -13,7 +13,7 @@ public:
     Vehicul(int id, const std::string& producator);
 
     // destructor
-    virtual ~Vehicul();
+    ~Vehicul() override;
 
     // suprascrierea functiei virtuale pure din clasa de baza
     void afisareDetalii() const override;
