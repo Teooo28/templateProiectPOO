@@ -1,7 +1,13 @@
 #include "Ruta.h"
+#include "ExceptiiCustom.h"
 
 // implementare constructor
 Ruta::Ruta(const std::string& nume, int nrStatii, const std::string* arrayStatii) : nume(nume), nrStatii(nrStatii) {
+    // validare date
+    if (nrStatii <= 0) {
+        throw ValoareInvalidaException("Eroare: O ruta trebuie sa aiba cel putin o statie!");
+    }
+    
     statii = new std::string[nrStatii];
     for(int i = 0; i < nrStatii; i++) {
         statii[i] = arrayStatii[i];
