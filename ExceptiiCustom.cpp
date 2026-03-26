@@ -1,8 +1,10 @@
 #include "ExceptiiCustom.h"
 
-ValoareInvalidaException::ValoareInvalidaException(const std::string& mesajEroare) : mesaj(mesajEroare) {
-}
+EroareDateInvalide::EroareDateInvalide(const std::string& mesaj) 
+    : std::logic_error(mesaj) {}
 
-const char* ValoareInvalidaException::what() const noexcept {
-    return mesaj.c_str();
-}
+EroareCapacitate::EroareCapacitate(const std::string& mesaj) 
+    : std::logic_error(mesaj) {}
+
+EroareIdInexistent::EroareIdInexistent(const std::string& mesaj) 
+    : std::runtime_error(mesaj) {}

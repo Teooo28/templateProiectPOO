@@ -16,4 +16,6 @@ public:
     // suprascrierea functiei virtuale pure din clasa de baza 
     void afisareDetalii() const override;
 
+    void urcaPasageri(int numarPasageri);
+
 };

@@ -1,13 +1,18 @@
 #pragma once
-#include <exception>
+#include <stdexcept>
 #include <string>
 
-class ValoareInvalidaException : public std::exception {
-private:
-    std::string mesaj;
-
+class EroareDateInvalide : public std::logic_error {
 public:
-    ValoareInvalidaException(const std::string& mesajEroare);
+    EroareDateInvalide(const std::string& mesaj);
+};
 
-    const char* what() const noexcept override;
+class EroareCapacitate : public std::logic_error {
+public:
+    EroareCapacitate(const std::string& mesaj);
+};
+
+class EroareIdInexistent : public std::runtime_error {
+public:
+    EroareIdInexistent(const std::string& mesaj);
 };
