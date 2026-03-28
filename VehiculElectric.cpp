@@ -21,3 +21,11 @@ void VehiculElectric::afisareDetalii() const {
               << " | Producator: " << producator 
               << " | Baterie: " << baterie << " kWh\n";
 }
+
+// implementare setter baterie
+void VehiculElectric::setBaterie(int baterieNoua) {
+    if (baterieNoua <= 0) {
+        throw EroareDateInvalide("Eroare Date: Bateria trebuie sa fie mai mare decat 0!");
+    }
+    baterie = baterieNoua;
+}

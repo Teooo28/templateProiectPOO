@@ -5,7 +5,7 @@
 Ruta::Ruta(const std::string& nume, int nrStatii, const std::string* arrayStatii) : nume(nume), nrStatii(nrStatii) {
     // validare date
     if (nrStatii <= 0) {
-        throw ValoareInvalidaException("Eroare: O ruta trebuie sa aiba cel putin o statie!");
+        throw EroareDateInvalide("Eroare: O ruta trebuie sa aiba cel putin o statie!");
     }
     
     statii = new std::string[nrStatii];

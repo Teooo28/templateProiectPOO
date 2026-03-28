@@ -13,5 +13,5 @@ public:
     void adaugaVehicul(Vehicul* v);
     void afisareFlota() const;
     void stergeVehicul(int id);
-
+    void modificaBaterieVehicul(int id, int baterieNoua);
 };

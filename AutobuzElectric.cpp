@@ -2,11 +2,11 @@
 #include <iostream>
 
 // implementare constructor
-AutobuzElectric::AutobuzElectric(int id, const std::string& producator, int baterie, int nrLocuri, const std::string& ruta) 
+AutobuzElectric::AutobuzElectric(int id, const std::string& producator, int baterie, int nrLocuri, const Ruta& rutaAutobuz) 
     : Vehicul(id, producator), 
       VehiculElectric(id, producator, baterie),
       TransportPublic(id, producator, nrLocuri),
-      ruta(ruta) {
+      rutaAutobuz(rutaAutobuz) {
 }
 
 // implementare destructor
@@ -18,6 +18,6 @@ void AutobuzElectric::afisareDetalii() const {
     std::cout << "Autobuz Electric -> ID: " << id 
               << " | Producator: " << producator 
               << " | Baterie: " << baterie << " kWh" 
-              << " | Locuri: " << nrLocuri 
-              << " | Ruta: " << ruta << "\n";
+              << " | Locuri: " << nrLocuri << "\n";
+    rutaAutobuz.afisareRuta();
 }

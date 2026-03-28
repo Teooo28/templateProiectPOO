@@ -1,4 +1,5 @@
 #include "ManagerFlota.h"
+#include "VehiculElectric.h"
 #include "ExceptiiCustom.h"
 #include <iostream>
 
@@ -40,7 +41,33 @@ void ManagerFlota::stergeVehicul(int id) {
             delete *i;
             vehicule.erase(i);
             std::cout << "Vehiculul a fost sters!\n";
-            break;
+            return;
+        }
+    }
+
+    if (!gasit) {
+        throw EroareIdInexistent("Eroare Runtime: Vehicului cu ID-ul " + std::to_string(id) + " nu exista!\n");
+    }
+}
+
+// metoda modificare baterie
+void ManagerFlota::modificaBaterieVehicul(int id, int baterieNoua) {
+    bool gasit = false;
+
+    for (Vehicul* v : vehicule) {
+        if (v->getId() == id) {
+            gasit = true;
+
+            VehiculElectric* masinaElectrica = dynamic_cast<VehiculElectric*>(v);
+
+            if (masinaElectrica != nullptr) {
+                masinaElectrica->setBaterie(baterieNoua);
+                std::cout << "Baterie modificata cu succes!\n";
+            }
+            else {
+                std::cout << "Eroare: Vehicului cu ID: " + std::to_string(id) + " nu este electric!\n"; 
+            }
+            return;
         }
     }
 

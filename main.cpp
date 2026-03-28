@@ -1,6 +1,7 @@
-#include<iostream>
+#include "Meniu.h"
 
-int main(){
-    std::cout<<"Hello world!";
+int main() {
+    Meniu* aplicatie = Meniu::getInstance();
+    aplicatie->ruleaza();
     return 0;
 }
