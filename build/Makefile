@@ -365,6 +365,30 @@ Vehicul.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/Vehicul.cpp.s
 .PHONY : Vehicul.cpp.s
 
+VehiculCombustibil.obj: VehiculCombustibil.cpp.obj
+.PHONY : VehiculCombustibil.obj
+
+# target to build an object file
+VehiculCombustibil.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj
+.PHONY : VehiculCombustibil.cpp.obj
+
+VehiculCombustibil.i: VehiculCombustibil.cpp.i
+.PHONY : VehiculCombustibil.i
+
+# target to preprocess a source file
+VehiculCombustibil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/VehiculCombustibil.cpp.i
+.PHONY : VehiculCombustibil.cpp.i
+
+VehiculCombustibil.s: VehiculCombustibil.cpp.s
+.PHONY : VehiculCombustibil.s
+
+# target to generate assembly for a file
+VehiculCombustibil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/VehiculCombustibil.cpp.s
+.PHONY : VehiculCombustibil.cpp.s
+
 VehiculElectric.obj: VehiculElectric.cpp.obj
 .PHONY : VehiculElectric.obj
 
@@ -450,6 +474,9 @@ help:
 	@echo ... Vehicul.obj
 	@echo ... Vehicul.i
 	@echo ... Vehicul.s
+	@echo ... VehiculCombustibil.obj
+	@echo ... VehiculCombustibil.i
+	@echo ... VehiculCombustibil.s
 	@echo ... VehiculElectric.obj
 	@echo ... VehiculElectric.i
 	@echo ... VehiculElectric.s

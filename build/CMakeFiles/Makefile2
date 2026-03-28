@@ -84,12 +84,12 @@ clean: CMakeFiles/oop.dir/clean
 CMakeFiles/oop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target oop"
 .PHONY : CMakeFiles/oop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/oop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles 0
 .PHONY : CMakeFiles/oop.dir/rule
@@ -101,7 +101,7 @@ oop: CMakeFiles/oop.dir/rule
 # codegen rule for target.
 CMakeFiles/oop.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target oop"
 .PHONY : CMakeFiles/oop.dir/codegen
 
 # clean rule for target.

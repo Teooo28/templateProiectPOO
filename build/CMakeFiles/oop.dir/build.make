@@ -113,10 +113,24 @@ CMakeFiles/oop.dir/VehiculElectric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/VehiculElectric.cpp.s"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculElectric.cpp -o CMakeFiles\oop.dir\VehiculElectric.cpp.s
 
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj: CMakeFiles/oop.dir/flags.make
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/VehiculCombustibil.cpp
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj"
+	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj -MF CMakeFiles\oop.dir\VehiculCombustibil.cpp.obj.d -o CMakeFiles\oop.dir\VehiculCombustibil.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.cpp
+
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop.dir/VehiculCombustibil.cpp.i"
+	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.cpp > CMakeFiles\oop.dir\VehiculCombustibil.cpp.i
+
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop.dir/VehiculCombustibil.cpp.s"
+	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.cpp -o CMakeFiles\oop.dir\VehiculCombustibil.cpp.s
+
 CMakeFiles/oop.dir/TransportPublic.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/TransportPublic.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/TransportPublic.cpp
 CMakeFiles/oop.dir/TransportPublic.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oop.dir/TransportPublic.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop.dir/TransportPublic.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/TransportPublic.cpp.obj -MF CMakeFiles\oop.dir\TransportPublic.cpp.obj.d -o CMakeFiles\oop.dir\TransportPublic.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\TransportPublic.cpp
 
 CMakeFiles/oop.dir/TransportPublic.cpp.i: cmake_force
@@ -130,7 +144,7 @@ CMakeFiles/oop.dir/TransportPublic.cpp.s: cmake_force
 CMakeFiles/oop.dir/AutobuzElectric.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/AutobuzElectric.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/AutobuzElectric.cpp
 CMakeFiles/oop.dir/AutobuzElectric.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop.dir/AutobuzElectric.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop.dir/AutobuzElectric.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/AutobuzElectric.cpp.obj -MF CMakeFiles\oop.dir\AutobuzElectric.cpp.obj.d -o CMakeFiles\oop.dir\AutobuzElectric.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\AutobuzElectric.cpp
 
 CMakeFiles/oop.dir/AutobuzElectric.cpp.i: cmake_force
@@ -144,7 +158,7 @@ CMakeFiles/oop.dir/AutobuzElectric.cpp.s: cmake_force
 CMakeFiles/oop.dir/Tramvai.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/Tramvai.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Tramvai.cpp
 CMakeFiles/oop.dir/Tramvai.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop.dir/Tramvai.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oop.dir/Tramvai.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/Tramvai.cpp.obj -MF CMakeFiles\oop.dir\Tramvai.cpp.obj.d -o CMakeFiles\oop.dir\Tramvai.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Tramvai.cpp
 
 CMakeFiles/oop.dir/Tramvai.cpp.i: cmake_force
@@ -158,7 +172,7 @@ CMakeFiles/oop.dir/Tramvai.cpp.s: cmake_force
 CMakeFiles/oop.dir/Ruta.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/Ruta.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Ruta.cpp
 CMakeFiles/oop.dir/Ruta.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oop.dir/Ruta.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oop.dir/Ruta.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/Ruta.cpp.obj -MF CMakeFiles\oop.dir\Ruta.cpp.obj.d -o CMakeFiles\oop.dir\Ruta.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Ruta.cpp
 
 CMakeFiles/oop.dir/Ruta.cpp.i: cmake_force
@@ -172,7 +186,7 @@ CMakeFiles/oop.dir/Ruta.cpp.s: cmake_force
 CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ExceptiiCustom.cpp
 CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj -MF CMakeFiles\oop.dir\ExceptiiCustom.cpp.obj.d -o CMakeFiles\oop.dir\ExceptiiCustom.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\ExceptiiCustom.cpp
 
 CMakeFiles/oop.dir/ExceptiiCustom.cpp.i: cmake_force
@@ -186,7 +200,7 @@ CMakeFiles/oop.dir/ExceptiiCustom.cpp.s: cmake_force
 CMakeFiles/oop.dir/ManagerFlota.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/ManagerFlota.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ManagerFlota.cpp
 CMakeFiles/oop.dir/ManagerFlota.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oop.dir/ManagerFlota.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oop.dir/ManagerFlota.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/ManagerFlota.cpp.obj -MF CMakeFiles\oop.dir\ManagerFlota.cpp.obj.d -o CMakeFiles\oop.dir\ManagerFlota.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\ManagerFlota.cpp
 
 CMakeFiles/oop.dir/ManagerFlota.cpp.i: cmake_force
@@ -200,7 +214,7 @@ CMakeFiles/oop.dir/ManagerFlota.cpp.s: cmake_force
 CMakeFiles/oop.dir/Meniu.cpp.obj: CMakeFiles/oop.dir/flags.make
 CMakeFiles/oop.dir/Meniu.cpp.obj: C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Meniu.cpp
 CMakeFiles/oop.dir/Meniu.cpp.obj: CMakeFiles/oop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oop.dir/Meniu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oop.dir/Meniu.cpp.obj"
 	D:\Programs\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop.dir/Meniu.cpp.obj -MF CMakeFiles\oop.dir\Meniu.cpp.obj.d -o CMakeFiles\oop.dir\Meniu.cpp.obj -c C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Meniu.cpp
 
 CMakeFiles/oop.dir/Meniu.cpp.i: cmake_force
@@ -216,6 +230,7 @@ oop_OBJECTS = \
 "CMakeFiles/oop.dir/main.cpp.obj" \
 "CMakeFiles/oop.dir/Vehicul.cpp.obj" \
 "CMakeFiles/oop.dir/VehiculElectric.cpp.obj" \
+"CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj" \
 "CMakeFiles/oop.dir/TransportPublic.cpp.obj" \
 "CMakeFiles/oop.dir/AutobuzElectric.cpp.obj" \
 "CMakeFiles/oop.dir/Tramvai.cpp.obj" \
@@ -230,6 +245,7 @@ oop_EXTERNAL_OBJECTS =
 oop.exe: CMakeFiles/oop.dir/main.cpp.obj
 oop.exe: CMakeFiles/oop.dir/Vehicul.cpp.obj
 oop.exe: CMakeFiles/oop.dir/VehiculElectric.cpp.obj
+oop.exe: CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj
 oop.exe: CMakeFiles/oop.dir/TransportPublic.cpp.obj
 oop.exe: CMakeFiles/oop.dir/AutobuzElectric.cpp.obj
 oop.exe: CMakeFiles/oop.dir/Tramvai.cpp.obj
@@ -241,7 +257,7 @@ oop.exe: CMakeFiles/oop.dir/build.make
 oop.exe: CMakeFiles/oop.dir/linkLibs.rsp
 oop.exe: CMakeFiles/oop.dir/objects1.rsp
 oop.exe: CMakeFiles/oop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable oop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable oop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

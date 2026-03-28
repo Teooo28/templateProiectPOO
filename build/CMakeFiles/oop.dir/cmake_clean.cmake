@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oop.dir/TransportPublic.cpp.obj.d"
   "CMakeFiles/oop.dir/Vehicul.cpp.obj"
   "CMakeFiles/oop.dir/Vehicul.cpp.obj.d"
+  "CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj"
+  "CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj.d"
   "CMakeFiles/oop.dir/VehiculElectric.cpp.obj"
   "CMakeFiles/oop.dir/VehiculElectric.cpp.obj.d"
   "CMakeFiles/oop.dir/main.cpp.obj"

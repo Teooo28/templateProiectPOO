@@ -19,6 +19,12 @@
 },
 {
   "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\VehiculCombustibil.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\VehiculCombustibil.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/VehiculCombustibil.cpp",
+  "output": "CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
   "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\TransportPublic.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\TransportPublic.cpp",
   "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/TransportPublic.cpp",
   "output": "CMakeFiles/oop.dir/TransportPublic.cpp.obj"

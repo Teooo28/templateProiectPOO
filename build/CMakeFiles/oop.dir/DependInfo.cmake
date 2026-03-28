@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Tramvai.cpp" "CMakeFiles/oop.dir/Tramvai.cpp.obj" "gcc" "CMakeFiles/oop.dir/Tramvai.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/TransportPublic.cpp" "CMakeFiles/oop.dir/TransportPublic.cpp.obj" "gcc" "CMakeFiles/oop.dir/TransportPublic.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Vehicul.cpp" "CMakeFiles/oop.dir/Vehicul.cpp.obj" "gcc" "CMakeFiles/oop.dir/Vehicul.cpp.obj.d"
+  "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/VehiculCombustibil.cpp" "CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj" "gcc" "CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/VehiculElectric.cpp" "CMakeFiles/oop.dir/VehiculElectric.cpp.obj" "gcc" "CMakeFiles/oop.dir/VehiculElectric.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/main.cpp" "CMakeFiles/oop.dir/main.cpp.obj" "gcc" "CMakeFiles/oop.dir/main.cpp.obj.d"
   )
