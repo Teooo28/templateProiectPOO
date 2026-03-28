@@ -1,6 +1,5 @@
 #pragma once
 #include "ManagerFlota.h"
-#include <vector>
 #include <iostream>
 
 class Meniu {
@@ -8,7 +7,6 @@ private:
     static Meniu* instance;
     ManagerFlota manager;
 
-    // constructor privat pentru modelul Singleton
     Meniu();
 
     // functii ajutatoare interne

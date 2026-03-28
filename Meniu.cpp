@@ -1,7 +1,10 @@
 #include "Meniu.h"
 #include "VehiculElectric.h"
+#include "VehiculCombustibil.h"
 #include "Tramvai.h"
 #include "AutobuzElectric.h"
+#include "MasinaElectrica.h"
+#include "MasinaDiesel.h"
 #include "Ruta.h"
 #include <string>
 
@@ -17,20 +20,21 @@ Meniu* Meniu::getInstance() {
 }
 
 void Meniu::afisareOptiuni() const {
-    std::cout << "\n~ MENIU SMART CITY ~\n";
-    std::cout << "1. Adauga Vehicul\n";
+    std::cout << "\n~ SISTEM MANAGEMENT SMART CITY ~\n";
+    std::cout << "1. Adauga Vehicul in Flota\n";
     std::cout << "2. Afiseaza toata flota\n";
-    std::cout << "3. Modifica baterie vehicul\n";
+    std::cout << "3. Modifica baterie vehicul (doar electrice)\n";
     std::cout << "4. Sterge vehicul dupa ID\n";
     std::cout << "0. Iesire\n";
     std::cout << "Alege o optiune: ";
 }
 
 void Meniu::optiuneAdaugaVehicul() {
-    std::cout << "\nCe tip de vehicul doresti sa adaugi?\n";
-    std::cout << "1. Vehicul Electric Simplu\n";
-    std::cout << "2. Tramvai\n";
-    std::cout << "3. Autobuz Electric\n";
+    std::cout << "\n- Selecteaza Tip Vehicul -\n";
+    std::cout << "1. Masina Electrica\n";
+    std::cout << "2. Masina Diesel\n";
+    std::cout << "3. Tramvai (Electric)\n";
+    std::cout << "4. Autobuz Electric\n";
     std::cout << "Alegerea ta: ";
     
     int tip;
@@ -38,57 +42,50 @@ void Meniu::optiuneAdaugaVehicul() {
 
     int id;
     std::string prod;
-    std::cout << "Introdu ID: "; 
-    std::cin >> id;
-    std::cout << "Introdu Producator: "; 
-    std::cin >> prod;
+    std::cout << "ID: "; std::cin >> id;
+    std::cout << "Producator: "; std::cin >> prod;
 
     try {
-        if (tip == 1) {
+        if (tip == 1) { // Masina Electrica
             int baterie;
-            std::cout << "Baterie: "; 
-            std::cin >> baterie;
-            Vehicul* v = new VehiculElectric(id, prod, baterie);
-            manager.adaugaVehicul(v);
-            
-        } else if (tip == 2) {
-            int locuri, vagoane;
-            std::cout << "Numar locuri: "; 
-            std::cin >> locuri;
-            std::cout << "Numar vagoane: "; 
-            std::cin >> vagoane;
-            Vehicul* v = new Tramvai(id, prod, locuri, vagoane);
-            manager.adaugaVehicul(v);
-            
-        } else if (tip == 3) {
-            int baterie, locuri;
-            std::cout << "Baterie: "; 
-            std::cin >> baterie;
-            std::cout << "Numar locuri: "; 
-            std::cin >> locuri;
-    
+            std::string model;
+            std::cout << "Baterie (kWh): "; std::cin >> baterie;
+            std::cout << "Model masina: "; std::cin >> model;
+            manager.adaugaVehicul(new MasinaElectrica(id, prod, baterie, model));
+
+        } else if (tip == 2) { // Masina Diesel
+            int rezervor;
+            std::string norma;
+            std::cout << "Capacitate rezervor (L): "; std::cin >> rezervor;
+            std::cout << "Norma poluare (ex Euro6): "; std::cin >> norma;
+            manager.adaugaVehicul(new MasinaDiesel(id, prod, rezervor, norma));
+
+        } else if (tip == 3) { // Tramvai
+            int baterie, locuri, vagoane;
+            std::cout << "Baterie (kWh): "; std::cin >> baterie;
+            std::cout << "Nr. Locuri: "; std::cin >> locuri;
+            std::cout << "Nr. Vagoane: "; std::cin >> vagoane;
+            manager.adaugaVehicul(new Tramvai(id, prod, baterie, locuri, vagoane));
+
+        } else if (tip == 4) { // Autobuz Electric
+            int baterie, locuri, nrStatii;
             std::string numeRuta;
-            int nrStatii;
-            std::cout << "Numele Rutei (fara spatii): "; 
-            std::cin >> numeRuta;
-            std::cout << "Numar de statii: "; 
-            std::cin >> nrStatii;
+            std::cout << "Baterie (kWh): "; std::cin >> baterie;
+            std::cout << "Nr. Locuri: "; std::cin >> locuri;
+            std::cout << "Nume Ruta: "; std::cin >> numeRuta;
+            std::cout << "Numar statii: "; std::cin >> nrStatii;
 
             std::string* statiiTemp = new std::string[nrStatii];
             for (int i = 0; i < nrStatii; i++) {
-                std::cout << "Nume statia " << (i + 1) << " (fara spatii): ";
+                std::cout << "Statia " << (i + 1) << ": ";
                 std::cin >> statiiTemp[i];
             }
-
-            Ruta rutaAutobuz(numeRuta, nrStatii, statiiTemp);
-
+            Ruta r(numeRuta, nrStatii, statiiTemp);
             delete[] statiiTemp;
+            manager.adaugaVehicul(new AutobuzElectric(id, prod, baterie, locuri, r));
 
-            Vehicul* v = new AutobuzElectric(id, prod, baterie, locuri, rutaAutobuz);
-            manager.adaugaVehicul(v);
-            
         } else {
-            std::cout << "-> Optiune invalida! Intoarcere la meniul principal.\n";
+            std::cout << "Optiune invalida!\n";
         }
     } 
     catch (const std::exception& e) {
@@ -98,11 +95,8 @@ void Meniu::optiuneAdaugaVehicul() {
 
 void Meniu::optiuneModificaVehicul() {
     int id, baterieNoua;
-    std::cout << "Introdu ID-ul vehiculului: "; 
-    std::cin >> id;
-    std::cout << "Introdu noua baterie: "; 
-    std::cin >> baterieNoua;
-
+    std::cout << "ID vehicul electric: "; std::cin >> id;
+    std::cout << "Noua valoare baterie: "; std::cin >> baterieNoua;
     try {
         manager.modificaBaterieVehicul(id, baterieNoua);
     } catch (const std::exception& e) {
@@ -112,9 +106,7 @@ void Meniu::optiuneModificaVehicul() {
 
 void Meniu::optiuneStergeVehicul() {
     int id;
-    std::cout << "Introdu ID-ul vehiculului de sters: "; 
-    std::cin >> id;
-
+    std::cout << "ID de sters: "; std::cin >> id;
     try {
         manager.stergeVehicul(id);
     } catch (const std::exception& e) {
@@ -133,8 +125,8 @@ void Meniu::ruleaza() {
             case 2: manager.afisareFlota(); break;
             case 3: optiuneModificaVehicul(); break;
             case 4: optiuneStergeVehicul(); break;
-            case 0: std::cout << "Sistem inchis.\n"; break;
-            default: std::cout << "Optiune invalida!\n"; break;
+            case 0: std::cout << "Inchidere sistem...\n"; break;
+            default: std::cout << "Optiune inexistenta!\n"; break;
         }
     } while (optiune != 0);
 }
