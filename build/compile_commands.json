@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\main.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\main.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/main.cpp",
+  "output": "CMakeFiles/oop.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Vehicul.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\Vehicul.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Vehicul.cpp",
+  "output": "CMakeFiles/oop.dir/Vehicul.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\VehiculElectric.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\VehiculElectric.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/VehiculElectric.cpp",
+  "output": "CMakeFiles/oop.dir/VehiculElectric.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\TransportPublic.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\TransportPublic.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/TransportPublic.cpp",
+  "output": "CMakeFiles/oop.dir/TransportPublic.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\AutobuzElectric.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\AutobuzElectric.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/AutobuzElectric.cpp",
+  "output": "CMakeFiles/oop.dir/AutobuzElectric.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Tramvai.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\Tramvai.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Tramvai.cpp",
+  "output": "CMakeFiles/oop.dir/Tramvai.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Ruta.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\Ruta.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Ruta.cpp",
+  "output": "CMakeFiles/oop.dir/Ruta.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\ExceptiiCustom.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\ExceptiiCustom.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ExceptiiCustom.cpp",
+  "output": "CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\ManagerFlota.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\ManagerFlota.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ManagerFlota.cpp",
+  "output": "CMakeFiles/oop.dir/ManagerFlota.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\Meniu.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\Meniu.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Meniu.cpp",
+  "output": "CMakeFiles/oop.dir/Meniu.cpp.obj"
+}
+]

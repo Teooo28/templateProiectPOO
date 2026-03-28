@@ -1,0 +1,7 @@
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/oop.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/edit_cache.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/list_install_components.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/install.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/install/local.dir
+C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build/CMakeFiles/install/strip.dir
