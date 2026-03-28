@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/AutobuzElectric.cpp" "CMakeFiles/oop.dir/AutobuzElectric.cpp.obj" "gcc" "CMakeFiles/oop.dir/AutobuzElectric.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ExceptiiCustom.cpp" "CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj" "gcc" "CMakeFiles/oop.dir/ExceptiiCustom.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/ManagerFlota.cpp" "CMakeFiles/oop.dir/ManagerFlota.cpp.obj" "gcc" "CMakeFiles/oop.dir/ManagerFlota.cpp.obj.d"
+  "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/MasinaDiesel.cpp" "CMakeFiles/oop.dir/MasinaDiesel.cpp.obj" "gcc" "CMakeFiles/oop.dir/MasinaDiesel.cpp.obj.d"
+  "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/MasinaElectrica.cpp" "CMakeFiles/oop.dir/MasinaElectrica.cpp.obj" "gcc" "CMakeFiles/oop.dir/MasinaElectrica.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Meniu.cpp" "CMakeFiles/oop.dir/Meniu.cpp.obj" "gcc" "CMakeFiles/oop.dir/Meniu.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Ruta.cpp" "CMakeFiles/oop.dir/Ruta.cpp.obj" "gcc" "CMakeFiles/oop.dir/Ruta.cpp.obj.d"
   "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/Tramvai.cpp" "CMakeFiles/oop.dir/Tramvai.cpp.obj" "gcc" "CMakeFiles/oop.dir/Tramvai.cpp.obj.d"

@@ -11,7 +11,8 @@ public:
     ~ManagerFlota();
 
     void adaugaVehicul(Vehicul* v);
-    void afisareFlota() const;
     void stergeVehicul(int id);
+    void afisareFlota() const;
+    Vehicul* cautaVehicul(int id) const;
     void modificaBaterieVehicul(int id, int baterieNoua);
 };

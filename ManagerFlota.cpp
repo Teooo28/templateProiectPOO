@@ -16,19 +16,24 @@ ManagerFlota::~ManagerFlota() {
 
 // metoda de adaugare a unui vehicul
 void ManagerFlota::adaugaVehicul(Vehicul* v) {
+    if (v == nullptr) return;
+
     vehicule.push_back(v);
-    std::cout << "Vehiculul a fost adaugat!\n";
+    std::cout << "Vehiculul a fost adaugat cu succes!\n";
 }
 
 // metoda de afisare a flotei
 void ManagerFlota::afisareFlota() const {
     if (vehicule.empty()) {
         std::cout << "Flota este goala!\n";
+        return;
     }
 
-    for (const Vehicul* v : vehicule) {
+    std::cout << "\n- LISTA VEHICULE SMART CITY -\n";
+    for (Vehicul* v : vehicule) {
         v->afisareDetalii();
     }
+    std::cout << "Total vehicule in sistem: " << Vehicul::getNrTotalVehicule() << "\n";
 }
 
 // metoda de stergere a unui vehicul
@@ -48,6 +53,16 @@ void ManagerFlota::stergeVehicul(int id) {
     if (!gasit) {
         throw EroareIdInexistent("Eroare Runtime: Vehicului cu ID-ul " + std::to_string(id) + " nu exista!\n");
     }
+}
+
+// implementare cautare
+Vehicul* ManagerFlota::cautaVehicul(int id) const {
+    for (Vehicul* v : vehicule) {
+        if (v->getId() == id) {
+            return v;
+        }
+    }
+    throw EroareIdInexistent("Eroare: Nu am gasit niciun vehicul cu ID-ul: " + std::to_string(id));
 }
 
 // metoda modificare baterie

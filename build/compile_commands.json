@@ -31,6 +31,18 @@
 },
 {
   "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\MasinaDiesel.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\MasinaDiesel.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/MasinaDiesel.cpp",
+  "output": "CMakeFiles/oop.dir/MasinaDiesel.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
+  "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\MasinaElectrica.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\MasinaElectrica.cpp",
+  "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/MasinaElectrica.cpp",
+  "output": "CMakeFiles/oop.dir/MasinaElectrica.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/build",
   "command": "D:\\Programs\\msys64\\ucrt64\\bin\\g++.exe   -g -std=c++20 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\oop.dir\\AutobuzElectric.cpp.obj -c C:\\Users\\Ofice\\Desktop\\POO\\proiect1\\templateProiectPOO\\AutobuzElectric.cpp",
   "file": "C:/Users/Ofice/Desktop/POO/proiect1/templateProiectPOO/AutobuzElectric.cpp",
   "output": "CMakeFiles/oop.dir/AutobuzElectric.cpp.obj"

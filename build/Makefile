@@ -245,6 +245,54 @@ ManagerFlota.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/ManagerFlota.cpp.s
 .PHONY : ManagerFlota.cpp.s
 
+MasinaDiesel.obj: MasinaDiesel.cpp.obj
+.PHONY : MasinaDiesel.obj
+
+# target to build an object file
+MasinaDiesel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaDiesel.cpp.obj
+.PHONY : MasinaDiesel.cpp.obj
+
+MasinaDiesel.i: MasinaDiesel.cpp.i
+.PHONY : MasinaDiesel.i
+
+# target to preprocess a source file
+MasinaDiesel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaDiesel.cpp.i
+.PHONY : MasinaDiesel.cpp.i
+
+MasinaDiesel.s: MasinaDiesel.cpp.s
+.PHONY : MasinaDiesel.s
+
+# target to generate assembly for a file
+MasinaDiesel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaDiesel.cpp.s
+.PHONY : MasinaDiesel.cpp.s
+
+MasinaElectrica.obj: MasinaElectrica.cpp.obj
+.PHONY : MasinaElectrica.obj
+
+# target to build an object file
+MasinaElectrica.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaElectrica.cpp.obj
+.PHONY : MasinaElectrica.cpp.obj
+
+MasinaElectrica.i: MasinaElectrica.cpp.i
+.PHONY : MasinaElectrica.i
+
+# target to preprocess a source file
+MasinaElectrica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaElectrica.cpp.i
+.PHONY : MasinaElectrica.cpp.i
+
+MasinaElectrica.s: MasinaElectrica.cpp.s
+.PHONY : MasinaElectrica.s
+
+# target to generate assembly for a file
+MasinaElectrica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/MasinaElectrica.cpp.s
+.PHONY : MasinaElectrica.cpp.s
+
 Meniu.obj: Meniu.cpp.obj
 .PHONY : Meniu.obj
 
@@ -459,6 +507,12 @@ help:
 	@echo ... ManagerFlota.obj
 	@echo ... ManagerFlota.i
 	@echo ... ManagerFlota.s
+	@echo ... MasinaDiesel.obj
+	@echo ... MasinaDiesel.i
+	@echo ... MasinaDiesel.s
+	@echo ... MasinaElectrica.obj
+	@echo ... MasinaElectrica.i
+	@echo ... MasinaElectrica.s
 	@echo ... Meniu.obj
 	@echo ... Meniu.i
 	@echo ... Meniu.s
