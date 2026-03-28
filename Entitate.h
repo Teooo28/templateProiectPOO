@@ -15,4 +15,6 @@ public:
     // transforma Entitate intr-o clasa abstracta
     virtual void afisareDetalii() const = 0;
 
+    int getId() const { return id; }
+
 };
