@@ -3,7 +3,7 @@
 #include "ExceptiiCustom.h"
 
 // implementare constructor
-TransportPublic::TransportPublic(int id, const std::string& producator, int baterie) 
+TransportPublic::TransportPublic(int id, const std::string& producator, int nrLocuri) 
     : Vehicul(id, producator), nrLocuri(nrLocuri) {
 
         if (nrLocuri <= 0) {

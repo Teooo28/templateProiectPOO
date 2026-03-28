@@ -7,6 +7,8 @@
 
 Meniu* Meniu::instance = nullptr;
 
+Meniu::Meniu() {}
+
 Meniu* Meniu::getInstance() {
     if (instance == nullptr) {
         instance = new Meniu();

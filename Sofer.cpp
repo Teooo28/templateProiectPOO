@@ -8,7 +8,7 @@ Sofer::Sofer(int id, const std::string& nume, int aniExperienta)
     
     // validare date
     if (aniExperienta < 0) {
-        throw ValoareInvalidaException("Eroare: Anii de experienta nu pot fi negativi!");
+        throw EroareDateInvalide("Eroare: Anii de experienta nu pot fi negativi!");
     }
 }
 
