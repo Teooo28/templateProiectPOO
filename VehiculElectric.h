@@ -19,4 +19,6 @@ public:
     // setter baterie
     void setBaterie(int baterieNoua);
 
+    // getter baterie
+    int getBaterie() const { return baterie; }
 };

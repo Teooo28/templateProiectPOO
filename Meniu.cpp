@@ -18,7 +18,7 @@ Meniu* Meniu::getInstance() {
 
 void Meniu::afisareOptiuni() const {
     std::cout << "\n~ MENIU SMART CITY ~\n";
-    std::cout << "1. Adauga Vehicul Electric\n";
+    std::cout << "1. Adauga Vehicul\n";
     std::cout << "2. Afiseaza toata flota\n";
     std::cout << "3. Modifica baterie vehicul\n";
     std::cout << "4. Sterge vehicul dupa ID\n";

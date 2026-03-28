@@ -1,10 +1,10 @@
 #pragma once
-#include "Entitate.h"
 #include <string>
 
-class Vehicul : public Entitate {
+class Vehicul {
 
 protected:
+    int id;
     std::string producator;
     static int nrTotalVehicule;     // numara cate vehiculeam creat in total
 
@@ -13,11 +13,17 @@ public:
     Vehicul(int id, const std::string& producator);
 
     // destructor
-    ~Vehicul() override;
+    virtual ~Vehicul();
 
-    // suprascrierea functiei virtuale pure din clasa de baza
-    void afisareDetalii() const override;
+    // transforma Vehicul intr-o clasa abstracta
+    virtual void afisareDetalii() const = 0;
 
     // metoda statica pentru a putea citi contorul din exterior
     static int getNrTotalVehicule();
+
+    // getter id
+    int getId() const { return id; }
+
+    // getter producator
+    std::string getProducator() const { return producator; }
 };
