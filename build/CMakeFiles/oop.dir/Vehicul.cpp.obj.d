@@ -1,7 +1,6 @@
 CMakeFiles/oop.dir/Vehicul.cpp.obj: \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Vehicul.cpp \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Vehicul.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Entitate.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/string \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

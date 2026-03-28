@@ -71,7 +71,6 @@ CMakeFiles/oop.dir/ManagerFlota.cpp.obj: \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/tuple \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ranges_util.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Vehicul.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Entitate.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/string \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \

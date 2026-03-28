@@ -72,7 +72,6 @@ CMakeFiles/oop.dir/Meniu.cpp.obj: \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/tuple \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ranges_util.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Vehicul.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Entitate.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/string \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \
@@ -164,7 +163,10 @@ CMakeFiles/oop.dir/Meniu.cpp.obj: \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/istream \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculElectric.h \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Tramvai.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\TransportPublic.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\AutobuzElectric.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Ruta.h
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Ruta.h \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\MasinaElectrica.h \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\MasinaDiesel.h

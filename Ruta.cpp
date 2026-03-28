@@ -53,7 +53,7 @@ Ruta& Ruta::operator=(const Ruta& other) {
 
 // functia pentru afisare
 void Ruta::afisareRuta() const {
-    std::cout << "Ruta '" << nume << "' are " << nrStatii << " statii: ";
+    std::cout << "Ruta autobuzului se numeste: '" << nume << "' si are " << nrStatii << " statii: ";
     for(int i = 0; i < nrStatii; i++) {
         std::cout << statii[i] << " ";
     }

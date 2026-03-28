@@ -1,7 +1,6 @@
-CMakeFiles/oop.dir/Tramvai.cpp.obj: \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Tramvai.cpp \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Tramvai.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\TransportPublic.h \
+CMakeFiles/oop.dir/VehiculCombustibil.cpp.obj: \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.cpp \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculCombustibil.h \
  C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\Vehicul.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/string \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
@@ -110,16 +109,17 @@ CMakeFiles/oop.dir/Tramvai.cpp.obj: \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/tuple \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ranges_util.h \
- C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\VehiculElectric.h \
- D:/Programs/msys64/ucrt64/include/c++/15.2.0/iostream \
- D:/Programs/msys64/ucrt64/include/c++/15.2.0/ostream \
- D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
- D:/Programs/msys64/ucrt64/include/c++/15.2.0/ios \
+ C:\Users\Ofice\Desktop\POO\proiect1\templateProiectPOO\ExceptiiCustom.h \
+ D:/Programs/msys64/ucrt64/include/c++/15.2.0/stdexcept \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/exception \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/exception_ptr.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/typeinfo \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/nested_exception.h \
+ D:/Programs/msys64/ucrt64/include/c++/15.2.0/iostream \
+ D:/Programs/msys64/ucrt64/include/c++/15.2.0/ostream \
+ D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
+ D:/Programs/msys64/ucrt64/include/c++/15.2.0/ios \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/ext/atomicity.h \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
@@ -143,7 +143,6 @@ CMakeFiles/oop.dir/Tramvai.cpp.obj: \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.tcc \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/system_error \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
- D:/Programs/msys64/ucrt64/include/c++/15.2.0/stdexcept \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/streambuf \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/streambuf.tcc \
  D:/Programs/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
